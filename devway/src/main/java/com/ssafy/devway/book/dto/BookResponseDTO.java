@@ -16,7 +16,7 @@ public class BookResponseDTO {
     private String datetime;
     private String[] authors;
     private String publisher;
-    private int price;
-    private String thumnail;
+    private Integer price;
+    private String thumbnail;
 
 }

@@ -69,7 +69,7 @@ public class BookBlock implements BlockElement {
                 .queryParam("sort", sort.textMode)
                 .queryParam("page", page)
                 .queryParam("size", size)
-                .queryParam("target", target)
+                .queryParam("target", target.textMode)
                 .build()
                 .encode(StandardCharsets.UTF_8) //인코딩
                 .toUri();
@@ -100,7 +100,7 @@ public class BookBlock implements BlockElement {
                     .price(document.getPrice())
                     .datetime(document.getDatetime())
                     .publisher(document.getPublisher())
-                    .thumnail(document.getThumbnail())
+                    .thumbnail(document.getThumbnail())
                     .build();
                 bookList.add(dto);
             }

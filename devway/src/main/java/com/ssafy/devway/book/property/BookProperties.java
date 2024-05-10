@@ -9,7 +9,7 @@ public class BookProperties {
 
     private String apiKey;
     private String url = "https://dapi.kakao.com/v3/search/book";
-    private int page = 1;
-    private int size = 10;
+    private Integer page = 1;
+    private Integer size = 10;
 
 }
