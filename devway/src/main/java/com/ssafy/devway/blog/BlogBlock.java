@@ -59,14 +59,8 @@ public class BlogBlock implements BlockElement {
             processResponse(response);
 
         } catch (HttpClientErrorException e) {
-
             HttpStatusCode code = e.getStatusCode();
-
-            if (code == HttpStatus.UNAUTHORIZED) {
-                System.out.println("Client Id와 Secret Key를 다시 확인해주세요.");
-            } else if (code == HttpStatus.BAD_REQUEST) {
-                System.out.println("검색어(query)를 알맞게 입력해주세요.");
-            }
+            handleClientError(e);
         } catch (IllegalStateException e) {
             System.out.println(e.getMessage());
         } catch (JsonProcessingException e) {
