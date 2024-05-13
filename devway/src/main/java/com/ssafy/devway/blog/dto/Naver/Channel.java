@@ -9,7 +9,7 @@ import lombok.ToString;
 @Getter
 @NoArgsConstructor
 @ToString
-public class NaverResponse {
+public class Channel {
 
     private String lastBuildDate;
     private Integer total;

@@ -1,7 +1,6 @@
 package com.ssafy.devway.blog.dto.Naver;
 
 
-import java.time.LocalDateTime;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.ToString;

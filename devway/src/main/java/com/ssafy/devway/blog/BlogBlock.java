@@ -5,7 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.ssafy.devway.block.element.BlockElement;
 import com.ssafy.devway.blog.dto.BlogResponse;
 import com.ssafy.devway.blog.dto.Naver.Item;
-import com.ssafy.devway.blog.dto.Naver.NaverResponse;
+import com.ssafy.devway.blog.dto.Naver.Channel;
 import com.ssafy.devway.blog.property.BlogProperties;
 import java.net.URI;
 import java.nio.charset.StandardCharsets;
@@ -105,14 +105,14 @@ public class BlogBlock implements BlockElement {
 
     private void processResponse(ResponseEntity<String> response) throws JsonProcessingException {
         ObjectMapper mapper = new ObjectMapper();
-        NaverResponse naverResponse = mapper.readValue(response.getBody(), NaverResponse.class);
+        Channel channel = mapper.readValue(response.getBody(), Channel.class);
 
-        if (naverResponse == null || naverResponse.getItems().isEmpty()) {
+        if (channel == null || channel.getItems().isEmpty()) {
             throw new IllegalStateException("검색 결과가 없습니다.");
         }
 
         resultList = new ArrayList<>();
-        for (Item item : naverResponse.getItems()) {
+        for (Item item : channel.getItems()) {
             BlogResponse blogResponse = BlogResponse.builder()
                 .title(item.getTitle())
                 .link(item.getLink())
