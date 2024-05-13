@@ -5,7 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.ssafy.devway.block.element.BlockElement;
 import com.ssafy.devway.encyclopedia.dto.EncyclopediaResponse;
 import com.ssafy.devway.encyclopedia.dto.Naver.Item;
-import com.ssafy.devway.encyclopedia.dto.Naver.NaverResponse;
+import com.ssafy.devway.encyclopedia.dto.Naver.Channel;
 import com.ssafy.devway.encyclopedia.property.EncyclopediaProperties;
 import java.net.URI;
 import java.nio.charset.StandardCharsets;
@@ -104,14 +104,14 @@ public class EncyclopediaBlock implements BlockElement {
 
     private void processResponse(ResponseEntity<String> response) throws JsonProcessingException {
         ObjectMapper mapper = new ObjectMapper();
-        NaverResponse naverResponse = mapper.readValue(response.getBody(), NaverResponse.class);
+        Channel channel = mapper.readValue(response.getBody(), Channel.class);
 
-        if (naverResponse == null || naverResponse.getItems().isEmpty()) {
+        if (channel == null || channel.getItems().isEmpty()) {
             throw new IllegalStateException("검색 결과가 없습니다.");
         }
 
         resultList = new ArrayList<>();
-        for (Item item : naverResponse.getItems()) {
+        for (Item item : channel.getItems()) {
             EncyclopediaResponse blogResponse = EncyclopediaResponse.builder()
                 .title(item.getTitle())
                 .link(item.getLink())
