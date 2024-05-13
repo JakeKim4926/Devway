@@ -9,7 +9,7 @@ import lombok.ToString;
 @ToString
 public class Meta {
 
-    private int total_count;
-    private int pageable_count;
+    private Integer total_count;
+    private Integer pageable_count;
     private Boolean is_end;
 }

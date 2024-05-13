@@ -1,6 +1,5 @@
 package com.ssafy.devway.book.dto.kakao;
 
-import java.util.ArrayList;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
@@ -14,9 +13,9 @@ public class Document {
     private String contents;
     private String datetime;
     private String isbn;
-    private int price;
+    private Integer price;
     private String publisher;
-    private int sale_price;
+    private Integer sale_price;
     private String status;
     private String thumbnail;
     private String title;

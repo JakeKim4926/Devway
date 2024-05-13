@@ -1,6 +1,5 @@
 package com.ssafy.devway.TTS;
 
-import com.google.cloud.texttospeech.v1.SsmlVoiceGender;
 import com.google.cloud.texttospeech.v1.SynthesizeSpeechResponse;
 import com.ssafy.devway.block.element.BlockElement;
 import com.google.cloud.texttospeech.v1.AudioConfig;

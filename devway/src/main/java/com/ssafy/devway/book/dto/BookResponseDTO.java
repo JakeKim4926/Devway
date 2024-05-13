@@ -2,9 +2,7 @@ package com.ssafy.devway.book.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.Data;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 @Getter
@@ -18,7 +16,7 @@ public class BookResponseDTO {
     private String datetime;
     private String[] authors;
     private String publisher;
-    private int price;
-    private String thumnail;
+    private Integer price;
+    private String thumbnail;
 
 }
