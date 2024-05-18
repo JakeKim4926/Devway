@@ -11,7 +11,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 @Builder
-public class NewsResponse {
+public class NewsResponseDTO {
 
     private String title;
     private String link;

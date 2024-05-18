@@ -3,7 +3,7 @@ package com.ssafy.devway.blog;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.ssafy.devway.block.element.BlockElement;
-import com.ssafy.devway.blog.dto.BlogResponse;
+import com.ssafy.devway.blog.dto.BlogResponseDTO;
 import com.ssafy.devway.blog.dto.Naver.Item;
 import com.ssafy.devway.blog.dto.Naver.Channel;
 import com.ssafy.devway.blog.property.BlogProperties;
@@ -31,7 +31,7 @@ public class BlogBlock implements BlockElement {
     }
 
     @Getter
-    private List<BlogResponse> resultList;
+    private List<BlogResponseDTO> resultList;
 
     private final BlogProperties properties;
 
@@ -107,7 +107,7 @@ public class BlogBlock implements BlockElement {
 
         resultList = new ArrayList<>();
         for (Item item : channel.getItems()) {
-            BlogResponse blogResponse = BlogResponse.builder()
+            BlogResponseDTO blogResponse = BlogResponseDTO.builder()
                 .title(item.getTitle())
                 .link(item.getLink())
                 .description(item.getDescription())

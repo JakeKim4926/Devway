@@ -3,7 +3,7 @@ package com.ssafy.devway.encyclopedia;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.ssafy.devway.block.element.BlockElement;
-import com.ssafy.devway.encyclopedia.dto.EncyclopediaResponse;
+import com.ssafy.devway.encyclopedia.dto.EncyclopediaResponseDTO;
 import com.ssafy.devway.encyclopedia.dto.Naver.Item;
 import com.ssafy.devway.encyclopedia.dto.Naver.Channel;
 import com.ssafy.devway.encyclopedia.property.EncyclopediaProperties;
@@ -31,7 +31,7 @@ public class EncyclopediaBlock implements BlockElement {
     }
 
     @Getter
-    private List<EncyclopediaResponse> resultList;
+    private List<EncyclopediaResponseDTO> resultList;
 
     private final EncyclopediaProperties properties;
 
@@ -106,7 +106,7 @@ public class EncyclopediaBlock implements BlockElement {
 
         resultList = new ArrayList<>();
         for (Item item : channel.getItems()) {
-            EncyclopediaResponse encyclopediaResponse = EncyclopediaResponse.builder()
+            EncyclopediaResponseDTO encyclopediaResponse = EncyclopediaResponseDTO.builder()
                 .title(item.getTitle())
                 .link(item.getLink())
                 .description(item.getDescription())

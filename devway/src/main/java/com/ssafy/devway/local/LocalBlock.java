@@ -4,7 +4,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.ssafy.devway.block.element.BlockElement;
 import com.ssafy.devway.local.dto.Naver.Channel;
-import com.ssafy.devway.local.dto.LocalResponse;
+import com.ssafy.devway.local.dto.LocalResponseDTO;
 import com.ssafy.devway.local.dto.Naver.Item;
 import com.ssafy.devway.local.property.LocalProperties;
 import java.net.URI;
@@ -31,7 +31,7 @@ public class LocalBlock implements BlockElement {
     }
 
     @Getter
-    private List<LocalResponse> resultList;
+    private List<LocalResponseDTO> resultList;
 
     private final LocalProperties properties;
 
@@ -107,7 +107,7 @@ public class LocalBlock implements BlockElement {
 
         resultList = new ArrayList<>();
         for (Item item : channel.getItems()) {
-            LocalResponse localResponse = LocalResponse.builder()
+            LocalResponseDTO localResponse = LocalResponseDTO.builder()
                 .title(item.getTitle())
                 .link(item.getLink())
                 .category(item.getCategory())

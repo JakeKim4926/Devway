@@ -3,15 +3,10 @@ package com.ssafy.devway.typoConversion;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.ssafy.devway.block.element.BlockElement;
-import com.ssafy.devway.local.SortCondition;
-import com.ssafy.devway.local.dto.LocalResponse;
-import com.ssafy.devway.local.dto.Naver.Channel;
-import com.ssafy.devway.local.dto.Naver.Item;
-import com.ssafy.devway.typoConversion.dto.TypoConversionResponse;
+import com.ssafy.devway.typoConversion.dto.TypoConversionResponseDTO;
 import com.ssafy.devway.typoConversion.property.TypoConversionProperties;
 import java.net.URI;
 import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
@@ -79,7 +74,7 @@ public class TypoConversionBlock implements BlockElement {
 
     private void processResponse(ResponseEntity<String> response) throws JsonProcessingException {
         ObjectMapper mapper = new ObjectMapper();
-        TypoConversionResponse errata = mapper.readValue(response.getBody(), TypoConversionResponse.class);
+        TypoConversionResponseDTO errata = mapper.readValue(response.getBody(), TypoConversionResponseDTO.class);
 
         if (errata.getErrata().isEmpty()) {
             System.out.println("변환할 오타가 없습니다.");

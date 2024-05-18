@@ -1,4 +1,4 @@
-package com.ssafy.devway.blog.dto;
+package com.ssafy.devway.local.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,11 +11,12 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 @Builder
-public class BlogResponse {
+public class LocalResponseDTO {
 
     private String title;
     private String link;
+    private String category;
     private String description;
-    private String dateTime;
-
+    private String telephone;
+    private String roadAddress;
 }

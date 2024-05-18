@@ -1,4 +1,4 @@
-package com.ssafy.devway.imageSearch.dto;
+package com.ssafy.devway.typoConversion.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,8 +11,8 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 @Builder
-public class ImageSearchResponse {
+public class TypoConversionResponseDTO {
 
-    private String link;
+    private String errata;
 
 }

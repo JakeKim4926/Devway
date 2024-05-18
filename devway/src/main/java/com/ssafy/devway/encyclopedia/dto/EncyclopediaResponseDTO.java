@@ -1,4 +1,4 @@
-package com.ssafy.devway.local.dto;
+package com.ssafy.devway.encyclopedia.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,12 +11,11 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 @Builder
-public class LocalResponse {
+public class EncyclopediaResponseDTO {
 
     private String title;
     private String link;
-    private String category;
     private String description;
-    private String telephone;
-    private String roadAddress;
+    private String thumbnail;
+
 }

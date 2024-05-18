@@ -1,4 +1,4 @@
-package com.ssafy.devway.typoConversion.dto;
+package com.ssafy.devway.blog.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,8 +11,11 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 @Builder
-public class TypoConversionResponse {
+public class BlogResponseDTO {
 
-    private String errata;
+    private String title;
+    private String link;
+    private String description;
+    private String dateTime;
 
 }

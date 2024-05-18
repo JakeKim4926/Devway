@@ -1,4 +1,4 @@
-package com.ssafy.devway.encyclopedia.dto;
+package com.ssafy.devway.imageSearch.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,11 +11,8 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 @Builder
-public class EncyclopediaResponse {
+public class ImageSearchResponseDTO {
 
-    private String title;
     private String link;
-    private String description;
-    private String thumbnail;
 
 }

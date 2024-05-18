@@ -5,7 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.ssafy.devway.block.element.BlockElement;
 import com.ssafy.devway.news.dto.Naver.Item;
 import com.ssafy.devway.news.dto.Naver.Channel;
-import com.ssafy.devway.news.dto.NewsResponse;
+import com.ssafy.devway.news.dto.NewsResponseDTO;
 import com.ssafy.devway.news.property.NewsProperites;
 import java.net.URI;
 import java.nio.charset.StandardCharsets;
@@ -31,7 +31,7 @@ public class NewsBlock implements BlockElement {
     }
 
     @Getter
-    private List<NewsResponse> resultList;
+    private List<NewsResponseDTO> resultList;
 
     private final NewsProperites properties;
 
@@ -108,7 +108,7 @@ public class NewsBlock implements BlockElement {
 
         resultList = new ArrayList<>();
         for (Item item : channel.getItems()) {
-            NewsResponse newsResponse = NewsResponse.builder()
+            NewsResponseDTO newsResponse = NewsResponseDTO.builder()
                 .title(item.getTitle())
                 .link(item.getLink())
                 .description(item.getDescription())

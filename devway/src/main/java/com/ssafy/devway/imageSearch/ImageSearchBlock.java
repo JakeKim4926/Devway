@@ -3,7 +3,7 @@ package com.ssafy.devway.imageSearch;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.ssafy.devway.block.element.BlockElement;
-import com.ssafy.devway.imageSearch.dto.ImageSearchResponse;
+import com.ssafy.devway.imageSearch.dto.ImageSearchResponseDTO;
 import com.ssafy.devway.imageSearch.dto.Naver.Channel;
 import com.ssafy.devway.imageSearch.dto.Naver.Item;
 import com.ssafy.devway.imageSearch.property.ImageSearchProperties;
@@ -31,7 +31,7 @@ public class ImageSearchBlock implements BlockElement {
     }
 
     @Getter
-    private List<ImageSearchResponse> resultList;
+    private List<ImageSearchResponseDTO> resultList;
 
     private final ImageSearchProperties properties;
 
@@ -109,7 +109,7 @@ public class ImageSearchBlock implements BlockElement {
 
         resultList = new ArrayList<>();
         for (Item item : channel.getItems()) {
-            ImageSearchResponse imageSearchResponse = ImageSearchResponse.builder()
+            ImageSearchResponseDTO imageSearchResponse = ImageSearchResponseDTO.builder()
                 .link(item.getLink())
                 .build();
             resultList.add(imageSearchResponse);
