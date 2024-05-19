@@ -1,22 +1,21 @@
-package com.ssafy.devway.book.dto;
+package com.ssafy.devway.encyclopedia.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 @Getter
+@NoArgsConstructor
 @AllArgsConstructor
 @ToString
 @Builder
-public class BookResponseDTO {
+public class EncyclopediaResponseDTO {
 
     private String title;
-    private String isbn;
-    private String datetime;
-    private String[] authors;
-    private String publisher;
-    private Integer price;
+    private String link;
+    private String description;
     private String thumbnail;
 
 }
