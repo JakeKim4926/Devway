@@ -1,5 +1,5 @@
 # 🍎 SAGWA 🍎
-![image](/uploads/6566e84565a282748fcb30fdc7302710/image.png)
+![image](/uploads/8fb9227ecaa46690abc36ccb0bc85666/image.png)
 
 # ✨ 목차
 - 🛫 [프로젝트 소개](#-프로젝트-소개)
@@ -33,13 +33,13 @@
 <br>
 
 # 📝 와이어프레임
-![sagwa_wireframe](/uploads/d89097dc23a9b2a09ef7da4cef643d39/sagwa_wireframe.png)
+![sagwa_wireframe](/uploads/d717e755b4a7ef66f96b576a16bb49e7/sagwa_wireframe.png)
 
 <br>
 
 # 💡 주요 기능
 ## 1️⃣ 메인
-![메인](/uploads/47f487a321d330d90e38ec8f089d88cb/메인.gif)
+![메인](/uploads/5d92f21f59a9d9c75c37c9825cd4a361/메인.gif)
 
 - 로딩화면을 지나 메인 페이지인 캘린더로 이동합니다.
 - 일기가 작성된 날짜에는 하단에 일기의 내용을 간략하게 볼 수 있습니다.
@@ -48,7 +48,7 @@
 <br>
 
 ## 2️⃣ 일기 작성, 조회, 삭제
-![일기](/uploads/88ab6caaaf57c72764e4862fd9aaa805/일기.gif)
+![일기](/uploads/25d4641c85fe6800e74915d408f905cc/일기.gif)
 
 ### **1. 작성**
 - 하단바의 오늘의 일기를 눌러 작성 페이지로 이동합니다.
@@ -67,7 +67,7 @@
 <br>
 
 ## 3️⃣ 통화 기록 조회 대상 추가 및 삭제, 기록 조회, 통계 조회
-![통화](/uploads/acaf37f46743c0bc1fe52bde27fff32b/통화.gif)
+![통화](/uploads/d92d805e4e2d51acbb09bad019478cbc/통화.gif)
 
 ### **1. 통화 기록 조회 대상 추가 및 삭제**
 - 탭을 이동하여 통화 기록 조회 대상을 추가하는 페이지로 이동합니다.
@@ -84,7 +84,7 @@
 <br>
 
 # 🛠 기술 스택
-![infra](/uploads/081230601c76b234ce8414b22b368dce/infra.png)
+![infra](/uploads/45666cdf70c6dd7a8f107b6a4790809b/infra.png)
 
 <br>
 
@@ -195,5 +195,5 @@
 |박소현|양성주|김준섭|
 |---|---|---|
 | **Full stack** | **Full stack** | **Infra** |
-| <img src="/uploads/cecb9ee0b268be5d67e9d1e4fb69f21a/sohyun.png" width="200px" /> | <img src="/uploads/f21d29131c62208fbe5dd1fd26c33052/sungju.jpg" width="200px" /> | <img src="/uploads/39c55ad5048ce96a450a0a2ce2c08074/junsub.png" width="200px" /> |
+| <img src="/uploads/14515b76be2646700c20f3db8d6afd7d/sohyun.png" width="200px" /> | <img src="/uploads/2c37d6d72209561f2b4a9a373705eef8/sungju.jpg" width="200px" /> | <img src="/uploads/48014ee48b321cdec5b6b109857f1f86/junsub.png" width="200px" /> |
 | **[BackEnd]** Spring-boot<br/>**[FrontEnd]** Android-native with Java | **[BackEnd]** Spring-boot<br/>**[FrontEnd]** Android-native with Java | Nginx<br/>Docker<br/>Jenkins<br/> |
