@@ -5,6 +5,8 @@
 
 ---
 
+![image](/uploads/0d30cb24d9995b0f4ee5950dc4a7e1e6/image.png)
+
 ***“내 손 안의 영어선생님”***
 
 체리톡(Check, Listen, Talk) 은 생성형 AI를 활용하여 맞춤형 학습 경험을 제공합니다. 채팅 뿐만 아니라 직접 대화하며 말하기, 쓰기 실력을 향상시킬 수 있습니다. 실시간 피드백과 상호작용을 통해 학습 효과를 극대화하세요! 지금 바로 참여해보세요! 😋
@@ -29,25 +31,25 @@
 ---
 
 ### 3-1. 메인
-<img src="/uploads/5b25216620a6837e272fdac3c4ff4594/메인.gif" height="800px" >
+<img src="/uploads/a39b7ca1e13fa2bf9ff0c74ed9c08c45/메인.gif" height="800px" >
 
 ### 3-2. 채팅
-<img src="/uploads/dfdef68c0e0655725b6f08620b32fbd1/채팅.gif" height="800px" >
+<img src="/uploads/bd3811e5f0ca8f9725893d9c09bee05d/채팅.gif" height="800px" >
 
 ### 3-3. 스피킹
-<img src="/uploads/3a87b33f7e18c58a447cb5b8e021ff28/스피킹.gif" height="800px" >
+<img src="/uploads/efd0817d0f1c8e2c1240bf47a61b505a/스피킹.gif" height="800px" >
 
 ### 3-4. 문법체크
-<img src="/uploads/1a5031a1c6ecb82f27b7996745a212a2/문법_체크.gif" height="800px" >
+<img src="/uploads/ad33630fdc49e9ac94bb20a579acfb4b/문법_체크.gif" height="800px" >
 
 ### 3-5. 히스토리
-<img src="/uploads/88387dd9deda567835c98c9047f0523e/히스토리.gif" height="800px" >
+<img src="/uploads/6888eec14c83ad58f070c0c204fc9a75/히스토리.gif" height="800px" >
 
 ## 4. 기술스택
 
 ---
 
-<img src="/uploads/381454095047dba95e7427072edecaf0/Untitled__1_.png">
+<img src="/uploads/b772aebfd82a2893344c4d0fca94dda2/infra.png">
 
 ## 5. 팀원소개 / 역할
 
@@ -56,11 +58,11 @@
 <table>
     <tr>
         <td height="140px" align="center"> 
-            <img src="/uploads/9938f85155ceefc00352d2becda52820/image.png" width="140px" /> <br> 이예원 <br>(Full-Stack) </a> <br></td>
+            <img src="/uploads/ca48d7d5b5b684e2ee35d8ca1bc88b4e/yewon.png" width="140px" /> <br> 이예원 <br>(Full-Stack) </a> <br></td>
         <td height="140px" align="center"> 
-            <img src="/uploads/75fce06bd5a2ce8c94e832d720a2fa2f/image.png" width="140px" /> <br> 이수민 <br>(Full-Stack) </a> <br></td>
+            <img src="/uploads/d795b8f6e0a0591e4725c74ca0b31e4e/sumin.png" width="140px" /> <br> 이수민 <br>(Full-Stack) </a> <br></td>
         <td height="140px" align="center"> 
-            <img src="/uploads/bea88b55cef0bdc614b648815bbe8de2/image.png" width="160px" /> <br> 김준섭 <br>(Devops) </a> <br></td>
+            <img src="/uploads/33edb276ae7f67b97b17dfdfbf074e68/junsub.png" width="160px" /> <br> 김준섭 <br>(Devops) </a> <br></td>
     <tr>
         <td align="center">Spring-boot<br/>Android-native with Java<br/></td>
         <td align="center">Spring-boot<br/>Android-native with Java<br/></td>
