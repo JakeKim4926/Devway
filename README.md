@@ -7,7 +7,7 @@
 혹시 필요한 기능이 데브웨이에 없다면, 저희 데브웨이에 소스를 기여해주세요!
 <br>
 
-![devway_title](/uploads/88ef47b1d1193de79445863b2cbddf85/devway_title.png)
+![devway_title](./assets/devway_title.png)
 
 <br>
 
@@ -18,37 +18,37 @@
 <br>
 
 # 📜와이어프레임
-![와이어프레임](/uploads/672c272e8f96cdf98440c3411e0457a4/와이어프레임.PNG)
+![와이어프레임](./assets/와이어프레임.PNG)
 
 <br>
 
 # 💡주요 기능
 
 ### 1️⃣ HOME
-![Home_화면_및_release_note](/uploads/0e145a6a1844c8eb9a5864afbf93a145/Home_화면_및_release_note.gif)
+![Home_화면_및_release_note](./assets/Home_화면_및_release_note.gif)
 - 데브웨이 오픈소스의 릴리즈 노트입니다.
 - 버전과 릴리즈 날짜를 알 수 있으며 상세 추가 사항을 확인할 수 있습니다.
 - 하단의 Together us 버튼을 통해 데브웨이 레포지토리로 이동할 수 있습니다.
 
 ### 2️⃣ DEVWAY
-![Devway_소개페이지](/uploads/9dd3975635838bad6ad4f9e2076ce86a/Devway_소개페이지.gif)
+![Devway_소개페이지](./assets/Devway_소개페이지.gif)
 - 데브웨이 랜딩페이지입니다.
 - 가장 하단의 이동하기 버튼을 통해 데브웨이 레포지토리로 이동할 수 있습니다.
 
 
 ### 3️⃣ BY DEVWAY
-![ByDevway_페이지](/uploads/b88707af257fe670adabe391e67a9a22/ByDevway_페이지.gif)
+![ByDevway_페이지](./assets/ByDevway_페이지.gif)
 - 데브웨이를 통해 만든 서비스를 모아놓은 페이지입니다.
 - apk라면 큐알코드를 통해 다운받을 수 있으며 웹사이트라면 누르면 이동할 수 있습니다.
 
 ### 4️⃣ FAQ
-![FAQ_페이지](/uploads/081e6b87d756f144d36b55bd86fb0a45/FAQ_페이지.gif)
+![FAQ_페이지](./assets/FAQ_페이지.gif)
 - FAQ 페이지입니다.
 - 자주 묻는 질문에서 질문을 누르면 해당 질문에 대한 답변을 토글 형태로 확인할 수 있습니다.
 - 만약 그 외의 질문이 있다면 하단 Contact us 버튼을 통해 데브웨이 공식 이메일을 복사할 수 있습니다.
 
 ### 5️⃣ GUIDE
-![가이드_다운](/uploads/9adc33eb1c6ece85ee9904b25260b7bd/가이드_다운.gif)
+![가이드_다운](./assets/가이드_다운.gif)
 - 영어버전과 한국버전의 pdf 형식으로 가이드를 다운받아 볼 수 있습니다.
 - 기여할 때는 기여가이드에 맞는 양식으로 MR 보내주세요! 활용 가이드를 통해 소스 활용법을 알 수 있습니다.
 
@@ -92,4 +92,4 @@
 <br>
 
 # 💻역할
-![역할](/uploads/74af9b3138af577162f1f304f3d618f1/역할.PNG)
+![역할](./assets/역할.PNG)
