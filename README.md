@@ -54,6 +54,11 @@
 
 <br>
 
+# 🛠 시스템 흐름도
+
+<img src="./assets/Devway_System_Architecture.png" alt="architecture" height="600px">
+
+
 # 📂 프로젝트 구조
 ```
 📦DEVWAY
