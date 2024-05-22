@@ -7,7 +7,7 @@
 혹시 필요한 기능이 데브웨이에 없다면, 저희 데브웨이에 소스를 기여해주세요!
 <br>
 
-![devway_title](./assets/devway_title.png)
+<img src="./assets/devway_title.png">
 
 <br>
 
