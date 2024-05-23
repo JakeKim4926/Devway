@@ -40,6 +40,12 @@ dependencies {
 	// JsonObject
 	implementation group: 'org.json', name: 'json', version: '20231013'
 
+	//FirebaseCloudMessaging
+	implementation 'com.google.firebase:firebase-admin:9.2.0'
+
+	//google-auth
+	implementation 'com.google.auth:google-auth-library-oauth2-http:1.19.0'
+
 
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
